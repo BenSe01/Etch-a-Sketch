@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 42px;
+}
+
+button {
+    padding: 5px;
+    margin: 0 109px
+}
+
+.grid-container {
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+    background-color: #597081;
+    padding: 50px 0;
+    font-size: 18px;
+}
+
+.cell {
+    border: 1px solid #ccc;
+}
+
+.hoverOver {
+    background-color: black;
+}
