@@ -3,11 +3,16 @@
     padding: 0;
 }
 
+body {
+    background-color: #36494E;
+}
+
 header {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #36494E;
 }
 
 
@@ -22,6 +27,9 @@ h1 {
     margin-top: 50px;
     margin-bottom: 25px;
     font-size: 42px;
+    color: #A9CEF4;
+    background-color: #36494E;
+    padding: 5px;
 }
 
 button {
@@ -34,6 +42,7 @@ button {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    background-color: white;
 }
 
 main {
@@ -44,9 +53,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-top: 100px;
+    margin-top: 120px;
     background-color: #597081;
-    padding: 50px 0;
+    padding: 30px 0;
     font-size: 18px;
 }
 
