@@ -62,4 +62,3 @@ function removeGrid() {
 createGrid(16);
 
 
-
